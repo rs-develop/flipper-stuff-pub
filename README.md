@@ -12,3 +12,4 @@ Automatically extracts the the values from '.mfkey32.log', calculates the key's 
 6) Execute the script: 'extract-mifare-classic-keys.py </path/to/mfkey32.log>' (make sure the mfkey32v2 binary is located in the same directory as the script)
 7) Copy the generated 'mf_classic_dict_user.nfc' to the flipper (maybe backup your old one first)
 8) Read the card again
+
