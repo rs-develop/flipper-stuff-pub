@@ -1,4 +1,5 @@
 # flipper zero tools by rs-develop
+More tools may be added ...
 
 ## extract-mifare-classic-keys.py
 Automatically extracts the the values from '.mfkey32.log', calculates the key's using Mfkey32v2 and creates a new 'mf_calssic_dict_user.nfc' file.
