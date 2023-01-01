@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # Dependencies: https://github.com/equipter/mfkey32v2
-# Author: rs-develop (https://github.com/rs-develop)
+# Author: rs-develop (https://github.com/rs-develop/flipper-stuff-pub)
 # Version: 2.1
 # -----------------------------------------------------------------------
 
