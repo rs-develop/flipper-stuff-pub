@@ -227,7 +227,7 @@ class MifareExtracter:
 # -----------------------------------------------------------------------
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description = "Extracts Mifare valus from flipper or a local mfkey32.log file, computes the key's using mfkey32v2 and uploads them to flipper. The cli and detect mode are Linux only.")
+    parser = argparse.ArgumentParser(description = "Extracts Mifare valus from flipper or a local mfkey32.log file, computes the key's using mfkey32v2 and uploads them to flipper. The new computed key's will added to the content of the \"/SD/nfc/assets/mf_classic_dict_user.nfc\" file. The cli and detect mode are Linux only.")
     parser.add_argument("--cli", action='store_true', help="Extract the values via flipper CLI, compute the key's and upload them to flipper (full auto mode)")
     parser.add_argument("--detect", action='store_true',help="Detect Flipper Zero Device - prints only the block device")
     parser.add_argument("--extract", dest="logfile", help="Extract Keys from a local mfkey32.log file and creates a \"mf_classic_dict_user.nfc\" file.", type=str)
